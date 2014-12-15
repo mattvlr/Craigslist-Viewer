@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mvandenb.clviewer.HomeActivity" >
+
+    	<item
+	    android:id="@+id/action_home"
+	    android:title="Home"
+	    android:showAsAction="ifRoom|always" android:visible="true"/>
+    	<item
+	    android:id="@+id/action_cat"
+	    android:title="Categories"
+	    android:showAsAction="ifRoom|always" android:visible="true"/>
+    	<item
+	    android:id="@+id/action_city"
+	    android:title="Choose Region"
+	    android:showAsAction="ifRoom|always" android:visible="true"/>
+    	<item
+	    android:id="@+id/action_post"
+	    android:title="Post"
+	    android:showAsAction="ifRoom|always" android:visible="true"/>
+</menu>

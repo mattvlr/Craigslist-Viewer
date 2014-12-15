@@ -1,0 +1,68 @@
+
+   <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="fill_parent"
+android:focusable="true" android:focusableInTouchMode="true"
+       tools:context="mvandenb.clviewer.HomeActivity" >
+
+       <EditText
+           android:id="@+id/et_search"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="false"
+           android:layout_alignParentRight="false"
+           android:layout_alignParentTop="false"
+           android:layout_marginLeft="32dp"
+           android:layout_marginRight="80dp"
+           android:layout_marginTop="48dp"
+           android:hint="keywords"
+           android:inputType="text" 
+           android:nextFocusUp="@id/et_search" android:nextFocusLeft="@id/et_search">
+
+       </EditText>
+
+       <Button
+           android:id="@+id/btn_search"
+           android:layout_width="48dp"
+           android:layout_height="48dp"
+           android:layout_alignBaseline="@+id/et_search"
+           android:layout_alignBottom="@+id/et_search"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="32dp"
+           android:background="@drawable/ic_action_name" />
+
+       <Button
+           android:id="@+id/btn_site"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/et_search"
+           android:layout_alignRight="@+id/btn_search"
+           android:layout_below="@+id/btn_search"
+           android:layout_marginTop="21dp"
+           android:lines="2"
+           android:text="Choose Your Region!\ncraigslist.org" />
+
+       <Button
+           android:id="@+id/btn_cat"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/btn_site"
+           android:layout_below="@+id/btn_site"
+           android:layout_marginTop="37dp"
+           android:layout_toLeftOf="@+id/btn_search"
+           android:minLines="2"
+           android:text="Categories" />
+
+       <Button
+           android:id="@+id/btn_cat_go"
+           android:layout_width="60dp"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/btn_cat"
+           android:layout_alignLeft="@+id/btn_search"
+           android:layout_alignRight="@+id/btn_site"
+           android:layout_alignTop="@+id/btn_cat"
+           android:text="Go" />
+       
+       </RelativeLayout>
+

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+ 
+
+    <TextView
+        android:id="@+id/state_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+ 
+
+    <TextView
+        android:id="@+id/city_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+     
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="15dip"
+        android:textColor="#000000"
+        android:textSize="16dip"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/city_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="15dip"
+        android:textColor="#000000"
+        android:textSize="16dip"
+        android:layout_toRightOf="@+id/city_name"/>
+ 
+
+ 
+</RelativeLayout>

@@ -1,0 +1,79 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp" >
+
+    <TextView
+        android:id="@+id/thumb_item_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+     
+
+   <!--  
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+ --> 
+    
+    <TextView
+        android:id="@+id/item_thumb_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#000080"
+        android:textSize="@dimen/name"
+        android:textStyle="bold" />
+ 
+   
+    <TextView
+        android:id="@+id/item_thumb_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_thumb_name"
+        android:layout_marginTop="1dip"
+        android:textColor="@color/pic"
+        android:textSize="@dimen/attached" />
+
+    <TextView
+        android:id="@+id/item_thumb_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_thumb_name"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@id/item_thumb_pic"
+        android:textColor="@color/map"
+        android:textSize="@dimen/attached" />
+   
+    <TextView
+        android:id="@+id/item_thumb_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_thumb_map"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/city"
+        android:textSize="@dimen/city" />
+ 
+    <TextView
+        android:id="@+id/item_thumb_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/date"
+        android:textSize="@dimen/date" />
+        <TextView
+        android:id="@+id/item_thumb_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/price"
+        android:textSize="@dimen/city" />
+
+    </RelativeLayout>
